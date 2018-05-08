@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	font-size:14px;
+	font-weight:300;
+	line-height:1.6em;
+	color:#fff;
+	background-color:#fff;
+  height: auto;
+}
+
+html {
+	width: 100%;
+	font-family:Arial Unicode MS, Arial Rounded MT Bold, Arial Narrow, Arial Black, Arial;
+}
+
+h1,h2, h3, h4, h5, h6, p, a, section, article {
+	font-family:Arial Unicode MS, Arial Rounded MT Bold, Arial Narrow, Arial Black, Arial;
+}
+
+/* Navigation*/
+nav {
+	padding: 10px;
+}
+.navigation ul {
+	margin: auto;
+}
+.navigation ul li {
+	display: inline-block;
+	padding: 8px;
+}
+
+.navigation ul li a {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #333333;
+}
+
+.navigation ul li a:hover {
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.icon-bar{
+	background-color:#333333;
+}
+
+.deco {
+	background-color: #50C0E9;
+	border-radius:  2px;
+	color: #ffffff;
+
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-ms-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;
+}
+.deco a:hover {
+	background-color: #50C0E9;
+	border-radius:  2px;
+	color: #ffffff;
+
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-ms-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;
+}
+
+/* End of Navigation*/
+
+.clearfix {
+	clear:both;
+}
+
+/* Logo*/
+.logo {
+	margin-top: 15%;
+}
+
+img {
+	width: 272px;
+	height: 92px;
+}
+
+.search {
+	text-align: center;
+}
+
+.searchbar input[type="text"]{
+	box-shadow: 1px 1px 1px 3px #000000;
+	border-radius: 5px;
+	width:100%;
+	height: 42px;
+}
+
+/* Search Button */
+.search ul {
+	margin-top: 4%;
+}
+
+.search ul li {
+	display: inline-block;
+	margin-bottom: 1%;
+}
+
+.search input[type="button"]:hover {
+	color: #fff;
+	background-color: #999999;
+
+	-webkit-transition: background .5s ease-in-out;
+	-moz-transition: background .5s ease-in-out;
+	-ms-transition: background .5s ease-in-out;
+	transition: background .5s ease-in-out;
+}
+
+.btnsearch {
+	font-size: 16px;
+	border: 0;
+	padding: 7px 20px;
+	color: #666666;
+	background-color: #F3F3F3;
+}
+
+/* End of Search Button */
+/* Languages */
+.languages {
+	text-align: center;
+}
+
+.languages ul {
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+
+.languages ul li {
+	display: inline-block;
+}
+
+.languages ul li a {
+	padding: 5px 10px;
+}
+
+/* Footer */
+
+.footr {
+	width: 100%;
+}
+footer {
+	border-top: 1px solid #999999;
+	background-color: #F3F3F3;
+}
+
+.footr ul li {
+	padding: 10px;
+	display: inline-block;
+}
+
+.footr ul li a {
+	padding: 7px 10px;
+	color: #999999;
+}
